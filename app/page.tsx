@@ -111,9 +111,11 @@ export default function HomePage() {
             <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
               <div className="relative">
                 <div className="w-80 h-80 rounded-3xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                  <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                    <span className="text-gray-400 font-medium">Professional Photo</span>
-                  </div>
+                  <img 
+                    src="/denis-photo.jpg" 
+                    alt="Denis Salnikov" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-xl">
                   <span className="text-white font-bold text-lg">CSM</span>
