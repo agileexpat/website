@@ -121,8 +121,12 @@ export default function HomePage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-xl">
-                  <span className="text-white font-bold text-lg">CSM</span>
+                <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-white rounded-2xl flex items-center justify-center shadow-xl border-2 border-[#353745]/10">
+                  <img 
+                    src="/icagile.png" 
+                    alt="Certification Logo" 
+                    className="w-16 h-16 object-contain"
+                  />
                 </div>
               </div>
             </div>
