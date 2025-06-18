@@ -67,9 +67,6 @@ export default function HomePage() {
                  <Badge className="bg-gradient-to-r from-purple-100 to-blue-100 text-purple-700 border-0 px-4 py-1.5 font-medium">
                   🤖 Tech Executives Consultant
                 </Badge>
-                <Badge className="bg-[#E6ECF3] text-[#353745] border-0 px-4 py-1.5 font-medium">
-                  ✨ Professional Scrum Master
-                </Badge>
               </div>
 
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
