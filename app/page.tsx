@@ -89,6 +89,7 @@ export default function HomePage() {
                   <Download className="mr-2 h-5 w-5" />
                   Download CV
                 </Button>
+                <a href="https://calendar.notion.so/meet/denissalnikov/agileexpat" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="outline"
                   size="lg"
@@ -97,6 +98,7 @@ export default function HomePage() {
                   Schedule Consultation
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
+              </a>
               </div>
 
               {/* Trust Indicators */}
