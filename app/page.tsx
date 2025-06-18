@@ -57,11 +57,18 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <div className="flex items-center space-x-3 mb-6">
-                <Badge className="bg-[#E6ECF3] text-[#353745] border-0 px-4 py-1.5 font-medium">
-                  ✨ Certified Scrum Master
+                
+                <Badge className="bg-gradient-to-r from-purple-100 to-blue-100 text-purple-700 border-0 px-4 py-1.5 font-medium">
+                  🚀 Org Design Coach
                 </Badge>
                 <Badge className="bg-gradient-to-r from-purple-100 to-blue-100 text-purple-700 border-0 px-4 py-1.5 font-medium">
-                  🚀 Agile Coach
+                  🪄 Facilitator
+                </Badge>
+                 <Badge className="bg-gradient-to-r from-purple-100 to-blue-100 text-purple-700 border-0 px-4 py-1.5 font-medium">
+                  🤖 Tech Executives Consultant
+                </Badge>
+                <Badge className="bg-[#E6ECF3] text-[#353745] border-0 px-4 py-1.5 font-medium">
+                  ✨ Professional Scrum Master
                 </Badge>
               </div>
 
